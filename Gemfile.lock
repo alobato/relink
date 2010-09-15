@@ -1,0 +1,17 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rack (1.2.1)
+    redis (2.0.8)
+    sinatra (1.0)
+      rack (>= 1.0)
+    sinatra-authorization (1.0.0)
+      sinatra (>= 0.9.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  redis
+  sinatra
+  sinatra-authorization

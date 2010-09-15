@@ -4,7 +4,8 @@ require 'redis_url'
 enable :sessions
 
 get '/' do
-  erb :index
+  # erb :index
+  redirect 'http://www.descontorelampago.com.br/cadastro'
 end
 
 post '/' do

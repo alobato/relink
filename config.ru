@@ -1,5 +1,6 @@
 require 'rubygems'
-require 'sinatra'
+require 'bundler/setup'
 
+require 'sinatra'
 require 'relink'
 run Sinatra::Application
